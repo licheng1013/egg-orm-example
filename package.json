@@ -1,0 +1,19 @@
+{
+  "name": "egg-orm-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^3.11.1",
+    "egg-mysql": "^3.3.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^5.10.0"
+  }
+}
