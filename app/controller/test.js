@@ -4,7 +4,7 @@ const Controller = require('egg').Controller;
 
 class TestController extends Controller {
     async index() {
-        throw new Error("出现错误!")
+        throw new Error("出现错误!") //测试异常捕获
         //this.ctx.body = result.okData("HelloWorld");
     }
 }

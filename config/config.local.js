@@ -20,3 +20,10 @@ exports.mysql = {
     // 是否加载到 agent 上，默认关闭
     agent: false,
 };
+
+// 跨域处理
+exports.security = {
+    csrf: {
+        enable: false,
+    },
+};
