@@ -1,5 +1,5 @@
 // app/middleware/error_handler.js
-const {okMsg, failMsg} = require("../model/result");
+const {failMsg} = require("../model/result");
 module.exports = () => {
     return async function errorHandler(ctx, next) {
         console.log("错误中间件!")

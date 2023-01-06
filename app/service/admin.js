@@ -10,12 +10,15 @@ class AdminService extends Service {
     // 创建
     async create(body) {
         console.log(body)
-        const result = await this.app.mysql.insert(tableName, body);
-        console.log(result);
-        if (result.affectedRows !== 1) {
-            throw new Error("插入失败!")
+        try {
+            const result = await this.app.mysql.insert(tableName, body);
+            console.log(result);
+            if (result.affectedRows !== 1) {
+               throw new Error("插入失败!")
+            }
+        }catch (e){
+            console.log(e)
         }
-
     }
     // 单个
     async show(id) {
