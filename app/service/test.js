@@ -1,4 +1,4 @@
-import {Service} from "egg";
+const Service = require('egg').Service;
 
 class TestService extends Service {
     // 分页

@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "egg": "^3.11.1",
-    "egg-mysql": "^3.3.0"
+    "egg": "3.11.1",
+    "egg-mysql": "3.3.0"
   },
   "devDependencies": {
-    "egg-bin": "^5.10.0"
+    "egg-bin": "5.10.0"
   }
 }
